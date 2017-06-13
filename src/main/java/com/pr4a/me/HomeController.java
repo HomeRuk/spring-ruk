@@ -12,7 +12,7 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String hello() {
-        return "Hello World!" + (8 + 7);
+        return "Hello World!";
     }
 
     public static void main(String[] args) throws Exception {
